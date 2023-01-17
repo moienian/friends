@@ -1,0 +1,50 @@
+.App {
+  background-color: rgb(241, 207, 134);
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 1px rgba(97, 97, 97, 0.9);
+  padding: 10px;
+}
+
+.user {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(97, 97, 97, 0.9);
+  margin-right: 20px;
+  padding: 2px;
+}
+
+.user p,
+h3 {
+  margin: 0;
+  text-align: left;
+}
+
+.user p {
+  color: grey;
+  margin-top: 5px;
+}
